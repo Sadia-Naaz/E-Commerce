@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Roboto:wght@400;700;900&family=Rubik&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 100px 20px 100px;
+  align-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
+.nav-logo {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.nav-img {
+  justify-content: space-between;
+  display: flex;
+  width: 30px;
+  height: 29.808px;
+  flex-shrink: 0;
+  gap: 2;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(252, 203, 144, 0.44) 0%,
+    rgba(255, 154, 158, 0.38) 100%
+  );
+  width: 1340px;
+  height: 500px;
+}
+.col-text {
+  padding: 30px;
+  margin-top: 50px;
+}
+.p1 {
+  color: #000;
+  font-family: Mada;
+  font-size: 18px;
+  font-weight: 400;
+}
+.p2,
+p3 {
+  color: #000;
+  font-family: Aclonica;
+  font-size: 114px;
+    font-weight: 400;
+  }
+
+.col-img{
+  width: 300.131px;
+  height: 100px;
+  flex-shrink: 0;
+  margin-right: -10em ;
+}
+.button{
+    justify-content: center;
+    align-content: center;
+    width: 210px;
+    height: 60px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(255, 81, 81, 0.5) 0%, #ff5e3a 100%);
+   margin-top: 100px;
+}
+.button a{
+text-align: center;
+text-orientation:sideways-right ;
+text-decoration: none;
+color: #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 900;
+line-height: 55px;
+margin: 20px 20px 20px 50px;
+
+}
+.collection{
+justify-content: center;
+display: block;
+padding: 20px;
+}
